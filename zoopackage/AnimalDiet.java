@@ -11,7 +11,5 @@ public abstract class AnimalDiet {
     public String getDietType(){
         return dietType;
     }
-    public void setFoodType(String type){
-        dietType = type;
-    }
+
 }
