@@ -1,10 +1,10 @@
 package zoopackage;
 
-public abstract class animalDiet {
+public abstract class AnimalDiet {
 
     private String dietType;
 
-    public animalDiet() {
+    public AnimalDiet() {
         dietType = "Generic animal food";
     }
 
