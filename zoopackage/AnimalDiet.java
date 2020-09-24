@@ -2,13 +2,13 @@ package zoopackage;
 
 public abstract class AnimalDiet {
 
-    private String dietType;
+    public String dietType;
 
     public AnimalDiet() {
-        dietType = "Generic animal food";
+        dietType = "Generic animal diet";
     }
 
-    public String getDietType(){
+    public String getFoodType(){
         return dietType;
     }
 

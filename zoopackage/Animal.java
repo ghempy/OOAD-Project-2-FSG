@@ -4,7 +4,7 @@ import java.util.Random;
 public class Animal{
     private String name;
     private boolean isAsleep;
-    private AnimalDiet dietType;
+    public AnimalDiet diet;
 
    //constructor
    public Animal(String name){
@@ -47,7 +47,7 @@ public class Animal{
     }
     
     public void eat() {
-        System.out.println(this.name + " the " +this.getClass().getSimpleName() + " is eating.");
+        System.out.println(this.name + " the " +this.getClass().getSimpleName() + " is eating " + diet.getFoodType() + ".");
     }
     
     public void roam() {

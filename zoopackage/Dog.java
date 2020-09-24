@@ -5,6 +5,7 @@ public class Dog extends Canine{
     public Dog(String name)
     {
         super(name);
+        diet = new DomesticDiet();
     }
     public void roam() {
         int rand = randomInt();
