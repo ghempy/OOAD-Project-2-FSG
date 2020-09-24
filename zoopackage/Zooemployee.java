@@ -1,7 +1,9 @@
 package zoopackage;
 
+import java.util.Observable;
+
 //Example of Abstract class in line 4, "public abstract class Zooemployee"
-public abstract class Zooemployee {
+public abstract class Zooemployee extends Observable{
     //Encapsulation regarding line 5, "private String name;"
     private String name;
     public Zooemployee(String name){
@@ -21,6 +23,8 @@ public abstract class Zooemployee {
         for(int i=0; i<zoo.length ; i++){
             zoo[i].wakeup();
         }
+        setChanged();
+        notifyObservers();
     }
     public void makeAnimalSleep(Animal[] zoo) {
         System.out.println(this.name + " the " + this.getClass().getSimpleName() + " begins to tuck the animals in for the night.");
@@ -28,12 +32,16 @@ public abstract class Zooemployee {
             zoo[i].sleep();
         }
         System.out.println(this.name + " the " + this.getClass().getSimpleName() + " locks up and closes the zoo for the night.");
+        setChanged();
+        notifyObservers();
     }
     public void rollCall(Animal[] zoo) {
         System.out.println(this.name + " the " + this.getClass().getSimpleName() + " begins to roll call the animals.");
         for(int i=0; i<zoo.length ; i++){
             zoo[i].makeNoise();
         }
+        setChanged();
+        notifyObservers();
     }
     public abstract void exerciseAnimal(Animal[] zoo);
     public abstract void feedAnimal(Animal[] zoo);

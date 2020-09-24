@@ -12,6 +12,8 @@ public class Zookeeper extends Zooemployee {
         for(int i=1; i<zoo.length ; i++){
             zoo[i].roam();
         }
+        setChanged();
+        notifyObservers();
     }
 
     public void feedAnimal(Animal[] zoo) {
@@ -19,5 +21,7 @@ public class Zookeeper extends Zooemployee {
         for(int i=0; i<zoo.length ; i++){
             zoo[i].eat();
         }
+        setChanged();
+        notifyObservers();
     }
 }

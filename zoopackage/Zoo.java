@@ -2,12 +2,14 @@ package zoopackage;
 
 public class Zoo{
     public Zookeeper keeper;
+    public ZooAnnouncer announcer;
     public Animal[] all_animals;
 
     public Zoo(int numDays){
         //Abstraction example regarding lines 10-30 where we are creating new animals w/ names
         //Identity example regarding lines 10-40 (excluding 11) are examples of object identity because each new animal object is given its own unique name identifier.
         keeper = new Zookeeper("Zach");
+        announcer = new ZooAnnouncer(keeper);
         all_animals = new Animal[20];
         Alligator allison = new Alligator("Allison");
         Alligator abraham = new Alligator("Abraham");

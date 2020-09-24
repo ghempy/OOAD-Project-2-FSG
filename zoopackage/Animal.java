@@ -4,7 +4,7 @@ import java.util.Random;
 public class Animal{
     private String name;
     private boolean isAsleep;
-    public AnimalDiet diet;
+    protected AnimalDiet diet;
 
    //constructor
    public Animal(String name){
