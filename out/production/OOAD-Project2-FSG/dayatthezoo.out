@@ -67,11 +67,11 @@ Abraham slithers around.
 Cathy is *RUNNING*
 Clayton is *RUNNING*
 Dale is wagging their tail & running
-Daisy is digging
-Edward is *CHARGING*
-Ellie is *CHARGING*
+Daisy is wagging their tail & running
+Edward is *STOMPING*
+Ellie is *STOMPING*
 Harriet is *STOMPING*
-Harrison is *CHARGING*
+Harrison is *STOMPING*
 Lenny is *RUNNING*
 Lydia is *RUNNING*
 Rebecca is *STOMPING*
@@ -106,7 +106,7 @@ Wendy the Wolf is eating meat.
 Zach the Zookeeper begins to tuck the animals in for the night.
 Allison the Alligator has gone to sleep.
 Abraham the Alligator has gone to sleep.
-Cathy is sleeping
+Cathy meows
 Clayton is sleeping
 Dale the Dog has gone to sleep.
 Daisy the Dog has gone to sleep.
@@ -114,14 +114,14 @@ Edward the Elephant has gone to sleep.
 Ellie the Elephant has gone to sleep.
 Harriet the Hippo has gone to sleep.
 Harrison the Hippo has gone to sleep.
-Lenny is *RUNNING*
-Lydia GROWLS
+Lenny GROWLS
+Lydia is sleeping
 Rebecca the Rhino has gone to sleep.
 Ron the Rhino has gone to sleep.
 Sally the Snake has gone to sleep.
 Sergio the Snake has gone to sleep.
 Tony roar
-Taryn is *RUNNING*
+Taryn roar
 Willie the Wolf has gone to sleep.
 Wendy the Wolf has gone to sleep.
 Zach the Zookeeper locks up and closes the zoo for the night.
@@ -193,16 +193,16 @@ Zach the Zookeeper begins to exercise the animals.
 Abraham slithers around.
 Cathy is *RUNNING*
 Clayton is *RUNNING*
-Dale is wagging their tail & running
+Dale is digging
 Daisy is digging
 Edward is *STOMPING*
-Ellie is *STOMPING*
-Harriet is *STOMPING*
+Ellie is *CHARGING*
+Harriet is *CHARGING*
 Harrison is *STOMPING*
 Lenny is *RUNNING*
 Lydia is *RUNNING*
 Rebecca is *STOMPING*
-Ron is *CHARGING*
+Ron is *STOMPING*
 Sally slithers around.
 Sergio slithers around.
 Tony is *RUNNING*
@@ -234,21 +234,21 @@ Zach the Zookeeper begins to tuck the animals in for the night.
 Allison the Alligator has gone to sleep.
 Abraham the Alligator has gone to sleep.
 Cathy is sleeping
-Clayton meows
+Clayton is sleeping
 Dale the Dog has gone to sleep.
 Daisy the Dog has gone to sleep.
 Edward the Elephant has gone to sleep.
 Ellie the Elephant has gone to sleep.
 Harriet the Hippo has gone to sleep.
 Harrison the Hippo has gone to sleep.
-Lenny is sleeping
-Lydia is sleeping
+Lenny is *RUNNING*
+Lydia is *RUNNING*
 Rebecca the Rhino has gone to sleep.
 Ron the Rhino has gone to sleep.
 Sally the Snake has gone to sleep.
 Sergio the Snake has gone to sleep.
-Tony is sleeping
-Taryn is sleeping
+Tony roar
+Taryn is *RUNNING*
 Willie the Wolf has gone to sleep.
 Wendy the Wolf has gone to sleep.
 Zach the Zookeeper locks up and closes the zoo for the night.
@@ -322,13 +322,13 @@ Cathy is *RUNNING*
 Clayton is *RUNNING*
 Dale is wagging their tail & running
 Daisy is wagging their tail & running
-Edward is *CHARGING*
-Ellie is *CHARGING*
+Edward is *STOMPING*
+Ellie is *STOMPING*
 Harriet is *STOMPING*
 Harrison is *STOMPING*
 Lenny is *RUNNING*
 Lydia is *RUNNING*
-Rebecca is *CHARGING*
+Rebecca is *STOMPING*
 Ron is *STOMPING*
 Sally slithers around.
 Sergio slithers around.
@@ -361,7 +361,7 @@ Zach the Zookeeper begins to tuck the animals in for the night.
 Allison the Alligator has gone to sleep.
 Abraham the Alligator has gone to sleep.
 Cathy meows
-Clayton meows
+Clayton is sleeping
 Dale the Dog has gone to sleep.
 Daisy the Dog has gone to sleep.
 Edward the Elephant has gone to sleep.
@@ -369,13 +369,13 @@ Ellie the Elephant has gone to sleep.
 Harriet the Hippo has gone to sleep.
 Harrison the Hippo has gone to sleep.
 Lenny is sleeping
-Lydia is sleeping
+Lydia GROWLS
 Rebecca the Rhino has gone to sleep.
 Ron the Rhino has gone to sleep.
 Sally the Snake has gone to sleep.
 Sergio the Snake has gone to sleep.
 Tony is sleeping
-Taryn roar
+Taryn is sleeping
 Willie the Wolf has gone to sleep.
 Wendy the Wolf has gone to sleep.
 Zach the Zookeeper locks up and closes the zoo for the night.
@@ -449,10 +449,10 @@ Cathy is *RUNNING*
 Clayton is *RUNNING*
 Dale is wagging their tail & running
 Daisy is wagging their tail & running
-Edward is *CHARGING*
-Ellie is *CHARGING*
+Edward is *STOMPING*
+Ellie is *STOMPING*
 Harriet is *STOMPING*
-Harrison is *CHARGING*
+Harrison is *STOMPING*
 Lenny is *RUNNING*
 Lydia is *RUNNING*
 Rebecca is *STOMPING*
@@ -488,21 +488,21 @@ Zach the Zookeeper begins to tuck the animals in for the night.
 Allison the Alligator has gone to sleep.
 Abraham the Alligator has gone to sleep.
 Cathy is *RUNNING*
-Clayton is sleeping
+Clayton meows
 Dale the Dog has gone to sleep.
 Daisy the Dog has gone to sleep.
 Edward the Elephant has gone to sleep.
 Ellie the Elephant has gone to sleep.
 Harriet the Hippo has gone to sleep.
 Harrison the Hippo has gone to sleep.
-Lenny GROWLS
-Lydia is *RUNNING*
+Lenny is sleeping
+Lydia is sleeping
 Rebecca the Rhino has gone to sleep.
 Ron the Rhino has gone to sleep.
 Sally the Snake has gone to sleep.
 Sergio the Snake has gone to sleep.
-Tony roar
-Taryn roar
+Tony is *RUNNING*
+Taryn is sleeping
 Willie the Wolf has gone to sleep.
 Wendy the Wolf has gone to sleep.
 Zach the Zookeeper locks up and closes the zoo for the night.
@@ -574,12 +574,12 @@ Zach the Zookeeper begins to exercise the animals.
 Abraham slithers around.
 Cathy is *RUNNING*
 Clayton is *RUNNING*
-Dale is wagging their tail & running
+Dale is digging
 Daisy is wagging their tail & running
 Edward is *CHARGING*
 Ellie is *STOMPING*
 Harriet is *STOMPING*
-Harrison is *CHARGING*
+Harrison is *STOMPING*
 Lenny is *RUNNING*
 Lydia is *RUNNING*
 Rebecca is *STOMPING*
@@ -614,7 +614,7 @@ Wendy the Wolf is eating meat.
 Zach the Zookeeper begins to tuck the animals in for the night.
 Allison the Alligator has gone to sleep.
 Abraham the Alligator has gone to sleep.
-Cathy meows
+Cathy is sleeping
 Clayton is *RUNNING*
 Dale the Dog has gone to sleep.
 Daisy the Dog has gone to sleep.
@@ -622,14 +622,14 @@ Edward the Elephant has gone to sleep.
 Ellie the Elephant has gone to sleep.
 Harriet the Hippo has gone to sleep.
 Harrison the Hippo has gone to sleep.
-Lenny is *RUNNING*
-Lydia is *RUNNING*
+Lenny is sleeping
+Lydia is sleeping
 Rebecca the Rhino has gone to sleep.
 Ron the Rhino has gone to sleep.
 Sally the Snake has gone to sleep.
 Sergio the Snake has gone to sleep.
-Tony is sleeping
-Taryn is sleeping
+Tony is *RUNNING*
+Taryn roar
 Willie the Wolf has gone to sleep.
 Wendy the Wolf has gone to sleep.
 Zach the Zookeeper locks up and closes the zoo for the night.
@@ -705,12 +705,12 @@ Dale is wagging their tail & running
 Daisy is wagging their tail & running
 Edward is *CHARGING*
 Ellie is *STOMPING*
-Harriet is *CHARGING*
+Harriet is *STOMPING*
 Harrison is *STOMPING*
 Lenny is *RUNNING*
 Lydia is *RUNNING*
-Rebecca is *STOMPING*
-Ron is *CHARGING*
+Rebecca is *CHARGING*
+Ron is *STOMPING*
 Sally slithers around.
 Sergio slithers around.
 Tony is *RUNNING*
@@ -742,20 +742,20 @@ Zach the Zookeeper begins to tuck the animals in for the night.
 Allison the Alligator has gone to sleep.
 Abraham the Alligator has gone to sleep.
 Cathy meows
-Clayton meows
+Clayton is sleeping
 Dale the Dog has gone to sleep.
 Daisy the Dog has gone to sleep.
 Edward the Elephant has gone to sleep.
 Ellie the Elephant has gone to sleep.
 Harriet the Hippo has gone to sleep.
 Harrison the Hippo has gone to sleep.
-Lenny is sleeping
+Lenny GROWLS
 Lydia is sleeping
 Rebecca the Rhino has gone to sleep.
 Ron the Rhino has gone to sleep.
 Sally the Snake has gone to sleep.
 Sergio the Snake has gone to sleep.
-Tony is *RUNNING*
+Tony roar
 Taryn roar
 Willie the Wolf has gone to sleep.
 Wendy the Wolf has gone to sleep.
@@ -828,9 +828,9 @@ Zach the Zookeeper begins to exercise the animals.
 Abraham slithers around.
 Cathy is *RUNNING*
 Clayton is *RUNNING*
-Dale is digging
+Dale is wagging their tail & running
 Daisy is wagging their tail & running
-Edward is *STOMPING*
+Edward is *CHARGING*
 Ellie is *STOMPING*
 Harriet is *STOMPING*
 Harrison is *STOMPING*
@@ -877,13 +877,13 @@ Ellie the Elephant has gone to sleep.
 Harriet the Hippo has gone to sleep.
 Harrison the Hippo has gone to sleep.
 Lenny is *RUNNING*
-Lydia is sleeping
+Lydia GROWLS
 Rebecca the Rhino has gone to sleep.
 Ron the Rhino has gone to sleep.
 Sally the Snake has gone to sleep.
 Sergio the Snake has gone to sleep.
 Tony is sleeping
-Taryn roar
+Taryn is *RUNNING*
 Willie the Wolf has gone to sleep.
 Wendy the Wolf has gone to sleep.
 Zach the Zookeeper locks up and closes the zoo for the night.

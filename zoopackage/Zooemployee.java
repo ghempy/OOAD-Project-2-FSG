@@ -8,7 +8,11 @@ public abstract class Zooemployee extends Observable{
     private String name;
     public Zooemployee(String name){
         this.name = name;
+        Zoo.clock.attach(this);
     }
+
+    public abstract void update();
+    
     public String getName()
     {
         return name;
@@ -43,6 +47,13 @@ public abstract class Zooemployee extends Observable{
         setChanged();
         notifyObservers();
     }
-    public abstract void exerciseAnimal(Animal[] zoo);
-    public abstract void feedAnimal(Animal[] zoo);
+
+    public void arrive(){
+        System.out.println(this.name + "the" + this.getClass().getSimpleName() + "arrives for the day");
+    }
+
+    public void leave(){
+        System.out.println(this.name + "the" + this.getClass().getSimpleName() + "leaves for the night");
+    }
+
 }
