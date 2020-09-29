@@ -6,7 +6,7 @@ public abstract class Zooemployee{
     //Encapsulation regarding line 5, "private String name;"
     private String name;
 
-    public static ObservableEvent current_task;
+    public static ObservableEvent current_task;     //Keeps track of the current task for the zoo announcer
 
     public Zooemployee(String name){
         this.name = name;
@@ -23,6 +23,7 @@ public abstract class Zooemployee{
         this.name = name;
     }
 
+    //Each task will create an observable event for the ZooAnnouncer to observe
     public void wakeAnimalUp(Animal[] zoo) {
         current_task = new ObservableEvent("wakeup");
         current_task.notifyAnnouncer();

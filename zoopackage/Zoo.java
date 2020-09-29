@@ -3,7 +3,7 @@ package zoopackage;
 public class Zoo{
     public Zookeeper keeper;
     public ZooFoodServer server;
-    public static ZooAnnouncer announcer;
+    public static ZooAnnouncer announcer;   //needs to be static to be referenced by the ZooEmployee
     public static Animal[] all_animals;
     public static Clock clock;
 

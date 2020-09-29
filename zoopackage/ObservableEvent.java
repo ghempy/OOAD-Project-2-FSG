@@ -1,7 +1,7 @@
 package zoopackage;
 
-import java.util.ArrayList;
-import java.util.List;
+//Observerable implementation for part b
+//This is the observable object that the ZooAnnouncer will be observing to know when the zoo employees begin their tasks
 
 public class ObservableEvent
 {
@@ -17,6 +17,7 @@ public class ObservableEvent
 
     public void notifyAnnouncer(){
         Zoo.announcer.update();
+        //connecting observer and observable, we only need the announcer to update since the clock handles everything else
     }
 
 }

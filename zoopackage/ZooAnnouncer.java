@@ -1,7 +1,6 @@
 package zoopackage;
 
-import java.util.ArrayList;
-import java.util.List;
+//ZooAnnouncer is an observer of ObservableEvent
 
 public class ZooAnnouncer extends Zooemployee{
 
@@ -34,7 +33,6 @@ public class ZooAnnouncer extends Zooemployee{
                 System.out.println("Hi! This is " + this.getName() + " the ZooAnnouncer. The zookeeper is about to put the animals to sleep.");
                 leave();
                 break;
-            //default: System.out.print("Didnt hit");
         }
     }
 

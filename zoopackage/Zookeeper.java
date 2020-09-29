@@ -4,9 +4,10 @@ package zoopackage;
 public class Zookeeper extends Zooemployee {
     public Zookeeper(String name) {
         super(name);
-        Zoo.clock.attach(this);
+        Zoo.clock.attach(this);     //Zookeepers are observers are clock, so we attach it in constructor
     }
 
+    //Each task will create an observable event for the ZooAnnouncer to observe
     public void exerciseAnimal(Animal[] zoo) {
         current_task = new ObservableEvent("exercise");
         current_task.notifyAnnouncer();
@@ -47,7 +48,6 @@ public class Zookeeper extends Zooemployee {
                 makeAnimalSleep(Zoo.all_animals);
                 leave();
                 break;
-            //default: System.out.print("Didnt hit");
         }
     }
 }

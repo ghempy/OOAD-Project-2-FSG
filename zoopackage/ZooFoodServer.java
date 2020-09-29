@@ -1,5 +1,7 @@
 package zoopackage;
 
+//Part D
+
 public class ZooFoodServer extends Zooemployee{
     public ZooFoodServer(String name) {
         super(name);
@@ -10,6 +12,7 @@ public class ZooFoodServer extends Zooemployee{
         System.out.println(this.getName() + " the " + this.getClass().getSimpleName() + " begins to make the food.");
     }
 
+    //Since the Announcer needs to announce when food is served, we create observable events for lunch and dinner for guests
     public void serverFood(){
         if(Zoo.clock.getTime() == 12){
             current_task = new ObservableEvent("lunch");
@@ -55,5 +58,4 @@ public class ZooFoodServer extends Zooemployee{
                 break;
         } 
     }
-    
 }
