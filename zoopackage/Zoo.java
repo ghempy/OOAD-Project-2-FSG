@@ -2,14 +2,15 @@ package zoopackage;
 
 public class Zoo{
     public Zookeeper keeper;
+    public ZooFoodServer server;
     public ZooAnnouncer announcer;
-    public Animal[] all_animals;
+    public static Animal[] all_animals;
+    public static Clock clock;
 
     public Zoo(int numDays){
         //Abstraction example regarding lines 10-30 where we are creating new animals w/ names
         //Identity example regarding lines 10-40 (excluding 11) are examples of object identity because each new animal object is given its own unique name identifier.
-        keeper = new Zookeeper("Zach");
-        announcer = new ZooAnnouncer(keeper);
+       
         all_animals = new Animal[20];
         Alligator allison = new Alligator("Allison");
         Alligator abraham = new Alligator("Abraham");
@@ -53,15 +54,11 @@ public class Zoo{
         all_animals[18] = willie;
         all_animals[19] = wendy;
 
-        for(int i=1; i<=numDays ; i++){
-            System.out.println("This is day: "+ i);
-            keeper.wakeAnimalUp(all_animals);
-            keeper.rollCall(all_animals);
-            keeper.feedAnimal(all_animals);
-            keeper.exerciseAnimal(all_animals);
-            keeper.feedAnimal(all_animals);
-            keeper.makeAnimalSleep(all_animals);
-        }
+        clock = new Clock();
+        keeper = new Zookeeper("Zach");
+        server = new ZooFoodServer("Steve");
+        announcer = new ZooAnnouncer(keeper);
+        clock.start(numDays);
 
     }
 }
