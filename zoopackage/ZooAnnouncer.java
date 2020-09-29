@@ -8,23 +8,30 @@ public class ZooAnnouncer extends Zooemployee{
     ZooAnnouncer(String name){
         super(name);
     }
+
     @Override
     public void update() {
-        int time = Zoo.clock.getTime();
-        switch(time) {
-            case 8:
+        String flag = current_task.getTask();
+        switch(flag) {
+            case "wakeup":
                 arrive();
-                System.out.println("The zookeeper is about to wake up the animals.");
+                System.out.println("Hi! This is " + this.getName() + " the ZooAnnouncer. The zookeeper is about to wake up the animals.");
                 break;
-            case 12:
-                System.out.println("The zookeeper is about to feed the animals breakfast.");
+            case "rollcall":
+                System.out.println("Hi! This is " + this.getName() + " the ZooAnnouncer. The zookeeper is about to roll call the animals.");
                 break;
-            case 14: System.out.println("The zookeeper is about to exercise the animals.");
+            case "exercise": System.out.println("Hi! This is " + this.getName() + " the ZooAnnouncer. The zookeeper is about to exercise the animals.");
                 break;
-            case 17: System.out.println("The zookeeper is about to feed the animals dinner.");
+            case "feed": System.out.println("Hi! This is " + this.getName() + " the ZooAnnouncer. The zookeeper is about to feed the animals.");
                 break;
-            case 20:
-                System.out.println("The zookeeper is about to put the animals to sleep.");
+            case "lunch":
+                System.out.println("Hi! This is " + this.getName() + " the ZooAnnouncer. Lunch is about to be served.");
+                break;
+            case "dinner":
+                System.out.println("Hi! This is " + this.getName() + " the ZooAnnouncer. Dinner is about to be served.");
+                break;
+            case "sleep":
+                System.out.println("Hi! This is " + this.getName() + " the ZooAnnouncer. The zookeeper is about to put the animals to sleep.");
                 leave();
                 break;
             //default: System.out.print("Didnt hit");

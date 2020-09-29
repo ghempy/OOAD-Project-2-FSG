@@ -3,7 +3,7 @@ package zoopackage;
 public class Zoo{
     public Zookeeper keeper;
     public ZooFoodServer server;
-    public ZooAnnouncer announcer;
+    public static ZooAnnouncer announcer;
     public static Animal[] all_animals;
     public static Clock clock;
 
@@ -57,7 +57,7 @@ public class Zoo{
         clock = new Clock();
         keeper = new Zookeeper("Zach");
         server = new ZooFoodServer("Steve");
-        announcer = new ZooAnnouncer("Abigail");
+        announcer = new ZooAnnouncer("Morgan Freeman");
         clock.start(numDays);
 
     }

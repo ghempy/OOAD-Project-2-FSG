@@ -11,8 +11,8 @@ public class Clock {
     }
 
     public void setTime(int incr) {
-        time += incr;
         notifyAllObservers();
+        time += incr;
     }
 
     public void attach(Zooemployee observer){
