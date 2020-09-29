@@ -11,8 +11,6 @@ public class Zookeeper extends Zooemployee {
         for(int i=1; i<zoo.length ; i++){
             zoo[i].roam();
         }
-        setChanged();
-        notifyObservers();
     }
 
     public void feedAnimal(Animal[] zoo) {
@@ -20,16 +18,14 @@ public class Zookeeper extends Zooemployee {
         for(int i=0; i<zoo.length ; i++){
             zoo[i].eat();
         }
-        setChanged();
-        notifyObservers();
     }
 
     @Override
     public void update() {
         int time = Zoo.clock.getTime();
         switch(time) {
-            case 8: 
-            arrive();
+            case 8:
+            //arrive();
             wakeAnimalUp(Zoo.all_animals);
             break;
             case 12: 
@@ -41,7 +37,7 @@ public class Zookeeper extends Zooemployee {
             break;
             case 20: 
             makeAnimalSleep(Zoo.all_animals);
-            leave();
+            //leave();
             break;
             //default: System.out.print("Didnt hit");
         }

@@ -57,7 +57,7 @@ public class Zoo{
         clock = new Clock();
         keeper = new Zookeeper("Zach");
         server = new ZooFoodServer("Steve");
-        announcer = new ZooAnnouncer(keeper);
+        announcer = new ZooAnnouncer("Abigail");
         clock.start(numDays);
 
     }
