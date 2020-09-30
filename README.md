@@ -1,6 +1,16 @@
 # OOAD Project 2
-### Fallyn Logan, Serena Evans-Lutterodt, Garrett Hempy
 
+### Group Members
+
+Fallyn Logan, Serena Evans-Lutterodt, Garrett Hempy
+
+### How to Run the Zoo
+
+Download the entire repository, and run the Main.java file. Enter a number of days for the zoo to operate, and open the dayatthezoo.out file to view the zoo activities!
+
+### Comments
+
+Developed using Visiual Studio and IntelliJ, implementing strategy and observer patterns from Project 1.
 
 ### Project Write-Up
 
